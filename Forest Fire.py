@@ -4,9 +4,6 @@ from matplotlib import animation
 from matplotlib import colors
 
 # Create a forest fire animation based on a simple cellular automaton model.
-# The maths behind this code is described in the scipython blog article
-# at https://scipython.com/blog/the-forest-fire-model/
-# Christian Hill, January 2016.
 
 # Displacements from a cell to its eight nearest neighbours
 neighbourhood = ((-1,-1), (-1,0), (-1,1), (0,-1), (0, 1), (1,-1), (1,0), (1,1))
